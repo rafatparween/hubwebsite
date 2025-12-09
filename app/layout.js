@@ -49,8 +49,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "eztechprintersolutions",
-  description: "eztechprintersolutions",
+  title: "hewlett-hubsolutions.com",
+  description: "hewlett-hubsolutions",
 };
 
 export default function RootLayout({ children }) {
