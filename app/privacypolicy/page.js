@@ -568,15 +568,15 @@ const PrivacyPolicy = () => {
                     <div className="space-y-3">
                       <div className="flex items-center">
                         <Email className="mr-3 text-[#59c7b5]" />
-                        <span>support@hewlett-hubsolutions.com</span>
+                        <span>support@hewlettprinterssolution.com</span>
                       </div>
                       <div className="flex items-center">
                         <Phone className="mr-3 text-[#59c7b5]" />
-                        <span>[Your Toll-Free Number:- (844) 491-5152]</span>
+                        <span>[Your Toll-Free Number:- (888) 254-8896]</span>
                       </div>
                       <div className="flex items-center">
                         <Business className="mr-3 text-[#59c7b5]" />
-                        <span>Hewlett Hub Solutions – United States</span>
+                        <span>Hewlett Printers Solution LLC – United States</span>
                       </div>
                     </div>
                   </div>
@@ -619,7 +619,7 @@ const privacyPolicyContent = [
   {
     sectionTitle: 'Privacy Policy',
     content: [
-      'Hewlett Hub Solutions ("Company", "We", "Us", "Our") respects your privacy and is committed to protecting your personal information.',
+      'Hewlett Printers Solution LLC ("Company", "We", "Us", "Our") respects your privacy and is committed to protecting your personal information.',
       'This Privacy Policy explains how we collect, use, disclose, store, and safeguard your information when you visit www.eztechprintersolutions.com or use any of our technical support services.',
       'By accessing our website or requesting our services, you agree to the terms outlined in this Privacy Policy.',
     ],
@@ -741,7 +741,7 @@ const privacyPolicyContent = [
       'Request a copy of information we hold about you',
       '',
       'You may contact us anytime at',
-      '📧 support@hewlett-hubsolutions.com',
+      '📧 support@hewlettprinterssolution.com',
     ],
   },
   {
@@ -773,7 +773,7 @@ const privacyPolicyContent = [
   {
     sectionTitle: '11. No Brand Affiliation Disclosure',
     content: [
-      'Hewlett Hub Solutions is an independent service provider for printer and computer support.',
+      'Hewlett Printers Solution LLC is an independent service provider for printer and computer support.',
       'We are not affiliated with, endorsed by, or associated with any manufacturer or software company.',
       'All trademarks belong to their respective owners.',
       '',
@@ -783,7 +783,7 @@ const privacyPolicyContent = [
   {
     sectionTitle: '12. Business Transfers',
     content: [
-      'If Hewlett Hub Solutions is involved in a merger, sale, restructuring, or acquisition, your data may be transferred as part of the business assets—only if protected under this Privacy Policy.',
+      'If Hewlett Printers Solution LLC is involved in a merger, sale, restructuring, or acquisition, your data may be transferred as part of the business assets—only if protected under this Privacy Policy.',
     ],
   },
   {
@@ -798,9 +798,9 @@ const privacyPolicyContent = [
     content: [
       'If you have any questions or requests regarding this Privacy Policy, contact:',
       '',
-      '📧 support@hewlett-hubsolutions.com',
-      '📞 [Your Toll-Free Number:-(844) 491-5152]',
-      '🏢 Hewlett Hub Solutions – United States',
+      '📧 support@hewlettprinterssolution.com',
+      '📞 [Your Toll-Free Number:-(888) 254-8896]',
+      '🏢 Hewlett Printers Solution LLC – United States',
     ],
   },
 ];

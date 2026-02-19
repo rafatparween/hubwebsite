@@ -212,7 +212,7 @@ export default function PrinterDiagnosticsGuide() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-12">
       <Head>
-        <title>Printer Diagnostics | EzTech-Printer-Solutions</title>
+        <title>Printer Diagnostics | Hewlett Printers Solution LLC</title>
       </Head>
 
       {/* Header */}

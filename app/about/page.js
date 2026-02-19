@@ -62,7 +62,7 @@ export default function AboutPage() {
               </div>
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p>
-                  <strong>Hewlett Hub Solutions</strong> is a U.S.-registered information-technology company that provides expert assistance for computers, printers, and connected devices.
+                  <strong>Hewlett Printers Solution LLC</strong> is a U.S.-registered information-technology company that provides expert assistance for computers, printers, and connected devices.
                 </p>
                 <p>
                  January 2024, we've helped customers nationwide through reliable technical support, clear communication, and step-by-step learning resources.
@@ -164,7 +164,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Registered Name</div>
-                      <div className="text-gray-600">Hewlett Hub Solutions</div>
+                      <div className="text-gray-600">Hewlett Printers Solution LLC</div>
                     </div>
                   </div>
 
@@ -200,7 +200,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Email</div>
-                      <div className="text-gray-600">support@hewlett-hubsolutions.com</div>
+                      <div className="text-gray-600">support@hewlettprinterssolution.com</div>
                     </div>
                   </div>
 
@@ -210,7 +210,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Phone</div>
-                      <div className="text-gray-600">[(844) 491-5152]</div>
+                      <div className="text-gray-600">[(888) 254-8896]</div>
                     </div>
                   </div>
 
@@ -220,8 +220,8 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <div className="font-semibold text-gray-900">Address</div>
-                      <div className="text-gray-600">[8457 Burnet Avenue Unit 9 
-North Hills , CA 91343]</div>
+                      <div className="text-gray-600">[3550 Gila Bend
+Casper, WY 82604]</div>
                     </div>
                   </div>
 

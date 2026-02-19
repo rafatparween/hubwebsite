@@ -359,7 +359,7 @@ const TermsAndConditions = () => {
     <>
       <Head>
         <meta name="google-site-verification" content="YOUR_GOOGLE_ADS_CODE_HERE" />
-        <title>Terms & Conditions - Hewlett Hub Solutions</title>
+        <title>Terms & Conditions -Hewlett Printers Solution LLC</title>
       </Head>
 
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 py-16">
@@ -493,19 +493,19 @@ const TermsAndConditions = () => {
                       <div className="space-y-4">
                         <div className="flex items-center">
                           <Phone className="mr-3 text-[#59c7b5]" />
-                          <span>Toll-Free Support:(844) 491-5152</span>
+                          <span>Toll-Free Support:(888) 254-8896</span>
                         </div>
                         <div className="flex items-center">
                           <Email className="mr-3 text-[#59c7b5]" />
-                          <span>support@hewlett-hubsolutions.com</span>
+                          <span>support@hewlettprinterssolution.com</span>
                         </div>
                         <div className="flex items-center">
                           <Language className="mr-3 text-[#59c7b5]" />
-                          <span>https://hewlett-hubsolutions.com</span>
+                          <span>https://hewlettprinterssolution.com</span>
                         </div>
                         <div className="flex items-center">
                           <Business className="mr-3 text-[#59c7b5]" />
-                          <span>Hewlett Hub Solutions, California, USA</span>
+                          <span>Hewlett Printers Solution LLC, California, USA</span>
                         </div>
                       </div>
                     </div>
@@ -546,18 +546,18 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '1. Definitions',
     content: [
-      'Welcome to Hewlett Hub Solutions ("Company", "We", "Us", "Our"). These Terms & Conditions govern your access to and use of https://eztechprintersolutions.com and all services provided through our website, phone support, live chat, and remote assistance channels.',
-      'By using our website or contacting our toll-free support line (844) 491-5152, you agree to these Terms. If you do not agree, please discontinue use immediately.'
+      'Welcome to Hewlett Printers Solution LLC ("Company", "We", "Us", "Our"). These Terms & Conditions govern your access to and use of https://hewlettprinterssolution.com and all services provided through our website, phone support, live chat, and remote assistance channels.',
+      'By using our website or contacting our toll-free support line (888) 254-8896, you agree to these Terms. If you do not agree, please discontinue use immediately.'
     ],
     subSections: [
       {
         subTitle: 'Key Definitions',
         content: [
           'Client / You / User – any individual or entity using our website or services.',
-          'Company / We / Us – Hewlett Hub Solutions, based in Ohio, United States.',
+          'Company / We / Us – Hewlett Printers Solution LLC, based in California, United States.',
           'Service – all support services, consultations, diagnostics, remote sessions, and informational resources provided through our website.',
           'Technician – our in-house or contracted technical experts delivering services.',
-          'Website – https://hewlett-hubsolutions.com.'
+          'Website – https://hewlettprinterssolution.com.'
         ]
       }
     ]
@@ -565,7 +565,7 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '2. Acceptance of Terms',
     content: [
-      'By accessing the website, live chat, email, remote session, or our toll-free number (844) 491-5152, you confirm that:'
+      'By accessing the website, live chat, email, remote session, or our toll-free number (888) 254-8896, you confirm that:'
     ],
     subSections: [
       {
@@ -582,7 +582,7 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '3. Nature of Our Services',
     content: [
-      'Hewlett Hub Solutions provides independent technical assistance for various technology issues. We are not affiliated with any printer or computer manufacturer, unless expressly stated.'
+      'Hewlett Printers Solution LLC provides independent technical assistance for various technology issues. We are not affiliated with any printer or computer manufacturer, unless expressly stated.'
     ],
     subSections: [
       {
@@ -669,7 +669,7 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '7. Intellectual Property Rights',
     content: [
-      'All content on this website—including guides, layouts, design, text, logos, graphics, and instructions—is the property of Hewlett Hub Solutions.'
+      'All content on this website—including guides, layouts, design, text, logos, graphics, and instructions—is the property of Hewlett Printers Solution LLC.'
     ],
     subSections: [
       {
@@ -686,7 +686,7 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '8. Limitation of Liability',
     content: [
-      'Hewlett Hub Solutions is not liable for various situations as outlined below. Maximum liability is limited to the amount paid by the user.'
+      'Hewlett Printers Solution LLC is not liable for various situations as outlined below. Maximum liability is limited to the amount paid by the user.'
     ],
     subSections: [
       {
@@ -740,10 +740,10 @@ const termsAndConditionsContent = [
       {
         subTitle: 'Contact Details',
         content: [
-          '📞 Toll-Free Support:(844) 491-5152',
-          '📧 Email: support@hewlett-hubsolutions.com',
-          '🌐 Website: https://hewlett-hubsolutions.com',
-          '🏢 Hewlett Hub Solutions, California, USA'
+          '📞 Toll-Free Support:(888) 254-8896',
+          '📧 Email: support@hewlettprinterssolution.com',
+          '🌐 Website: https://hewlettprinterssolution.com',
+          '🏢 Hewlett Printers Solution LLC, California, USA'
         ]
       }
     ]

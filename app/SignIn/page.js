@@ -64,7 +64,7 @@ const SignIn = () => {
               Welcome Back
             </h1>
             <p className="text-white/70 text-sm">
-              Sign in to your EzTech-Printer-Solutions account
+              Sign in to your Hewlett Printers Solution LLC account
             </p>
           </div>
 
@@ -212,7 +212,7 @@ const SignIn = () => {
 
       {/* Footer */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white/50 text-sm mb-[20px]">
-        © 2024 EzTech-Printer-Solutions. All rights reserved.
+        © 2024 Hewlett Printers Solution LLC. All rights reserved.
       </div>
     </div>
   );

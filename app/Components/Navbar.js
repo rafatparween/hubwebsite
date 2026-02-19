@@ -104,7 +104,7 @@ export default function Navbar() {
       <div className="max-w-[1360px] mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo + Nav */}
         <div className="flex items-center space-x-8">
-          <Image src="/bhhs.png" alt="HP Logo" width={80} height={80} className="hover:scale-105 transition-transform"/>
+          <Image src="/hpsneworg.png" alt="HP Logo" width={130} height={130} className="hover:scale-105 transition-transform"/>
           <div className="hidden md:flex space-x-12 text-[#767676] font-semibold text-base text-[20px]">
             <Link href="/" className="hover:text-black transition-colors duration-200">Explore</Link>
             <Link href="/" className="hover:text-black transition-colors duration-200">Shop</Link>
@@ -120,7 +120,7 @@ export default function Navbar() {
                 <FaPhone className="text-white text-xs" />
               </div>
               <span className="text-[18px] font-bold bg-gradient-to-r from-[#59c7b5] to-[#0095d4] bg-clip-text text-transparent group-hover:scale-105 transition-all duration-300 whitespace-nowrap">
-                Call Us <span className="text-gray-900 font-extrabold drop-shadow-sm">+1 (844) 491-5152</span>
+                Call Us <span className="text-gray-900 font-extrabold drop-shadow-sm">+1 (888) 254-8896</span>
               </span>
             </div>
             <div className="flex items-center w-full border-2 border-gray-200 rounded-full px-4 py-2.5 hover:border-blue-500 transition-all duration-300 shadow-sm hover:shadow-md">

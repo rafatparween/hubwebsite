@@ -62,7 +62,7 @@ export default function SupportHome() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-blue-50 text-gray-800">
       <Head>
-        <title>Support | EzTech-Printer-Solutions</title>
+        <title>Support | Hewlett Printers Solution LLC</title>
       </Head>
 
       {/* Hero Section */}
@@ -97,10 +97,50 @@ export default function SupportHome() {
             <h3 className="text-3xl font-bold text-blue-600">98%</h3>
             <p className="text-gray-600">Customer Satisfaction</p>
           </div>
-          <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
-            <h3 className="text-3xl font-bold text-indigo-600"></h3>
-            <p className="text-gray-600"> Available Support</p>
-          </div>
+          <a
+  href="https://secure.logmeinrescue.com/Customer/Code.aspx?murl=/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="group block"
+>
+  <div className="relative p-[2px] rounded-2xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 transition-all duration-500 hover:scale-[1.02]">
+
+    <div className="relative bg-white rounded-2xl p-6 shadow-md 
+                    transition-all duration-500 
+                    group-hover:shadow-2xl">
+
+      {/* Badge */}
+      <div className="absolute -top-3 right-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white text-xs px-3 py-1 rounded-full shadow-md">
+        LIVE
+      </div>
+
+      <div className="flex items-center justify-between">
+
+        <div>
+          <p className="text-sm text-gray-500 mb-1">
+            Remote Technical Assistance
+          </p>
+          <h3 className="text-2xl font-bold text-gray-800 group-hover:text-indigo-600 transition">
+            Click Here For Support
+          </h3>
+        </div>
+
+        {/* Animated Icon Circle */}
+        <div className="w-12 h-12 flex items-center justify-center rounded-full 
+                        bg-indigo-100 text-indigo-600 text-xl
+                        transition-all duration-300
+                        group-hover:bg-indigo-600 
+                        group-hover:text-white 
+                        group-hover:rotate-12">
+          →
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</a>
+
           <div className="p-6 bg-white rounded-2xl shadow-md hover:shadow-lg transition">
             <h3 className="text-3xl font-bold text-purple-600">1.2M+</h3>
             <p className="text-gray-600">Queries Resolved</p>
@@ -179,7 +219,7 @@ export default function SupportHome() {
         <section className=" text-white rounded-2xl py-16 text-center shadow-xl" style={{ background: "linear-gradient(to right, #59c7b5, #0095d4)" }}>
           <div className="max-w-3xl mx-auto">
             <FiUsers className="w-14 h-14 mx-auto mb-4 text-white/80" />
-            <h2 className="text-3xl font-bold mb-2">Join the EzTech-Printer-Solutions Community</h2>
+            <h2 className="text-3xl font-bold mb-2">Join the Hewlett Printers Solution LLC Community</h2>
             <p className="text-blue-100 mb-6">Ask, learn, and grow with others just like you.</p>
             <button className="bg-white text-blue-700 font-medium px-6 py-3 rounded-full shadow hover:scale-105 transition">
               Visit Community

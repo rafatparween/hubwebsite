@@ -606,7 +606,7 @@ export default function PrinterTroubleshooting() {
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 2000));
     
-    alert('Your query has been submitted! Our EzTech-Printer-Solutions team will contact you shortly.');
+    alert('Your query has been submitted! Our Hewlett Printers Solution LLC team will contact you shortly.');
     setFormData({
       name: '',
       email: '',
@@ -620,8 +620,8 @@ export default function PrinterTroubleshooting() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       <Head>
-        <title>Printer Troubleshooting Guide | EzTech-Printer-Solutions</title>
-        <meta name="description" content="Professional printer troubleshooting and support from EzTech-Printer-Solutions experts" />
+        <title>Printer Troubleshooting Guide | Hewlett Printers Solution LLC</title>
+        <meta name="description" content="Professional printer troubleshooting and support from Hewlett Printers Solution LLC experts" />
       </Head>
 
       {/* Hero Section */}
@@ -779,7 +779,7 @@ export default function PrinterTroubleshooting() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <div className="flex items-center gap-2 text-lg font-semibold text-gray-800">
                       <Phone className="w-5 h-5 text-[#0095d4]" />
-                      📞 Toll-Free: (844) 491-5152
+                      📞 Toll-Free: (888) 254-8896
                     </div>
                     <div className="flex items-center gap-2 text-lg font-semibold text-gray-800">
                       <MessageCircle className="w-5 h-5 text-[#59c7b5]" />
@@ -946,7 +946,7 @@ export default function PrinterTroubleshooting() {
 
           {activeTab === 'expert-help' && (
             <div className="p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Need Expert Help from EzTech-Printer-Solutions?</h2>
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Need Expert Help from Hewlett Printers Solution LLC?</h2>
               
               <div className="grid lg:grid-cols-2 gap-8">
                 <div className="bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-6 border border-blue-100">
@@ -1036,7 +1036,7 @@ export default function PrinterTroubleshooting() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-3">
                     <Shield className="w-6 h-6 text-[#59c7b5]" />
-                    Why Choose EzTech-Printer-Solutions?
+                    Why Choose Hewlett Printers Solution LLC?
                   </h3>
                   <div className="space-y-4 mb-8">
                     {[
@@ -1061,7 +1061,7 @@ export default function PrinterTroubleshooting() {
                         <h4 className="font-semibold text-amber-800 mb-1">Immediate Assistance Available</h4>
                         <p className="text-amber-700 text-sm">
                           For urgent printer issues, call our support line at{' '}
-                          <span className="font-bold">(844) 491-5152</span>
+                          <span className="font-bold">(888) 254-8896</span>
                         </p>
                       </div>
                     </div>
@@ -1107,7 +1107,7 @@ export default function PrinterTroubleshooting() {
           <div className="p-12 text-center">
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">Still Having Printer Problems?</h2>
             <p className="text-cyan-100 text-xl mb-8 max-w-2xl mx-auto leading-relaxed">
-              Our certified EzTech-Printer-Solutions technicians are ready to provide professional solutions for all your printer issues.
+              Our certified Hewlett Printers Solution LLC technicians are ready to provide professional solutions for all your printer issues.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
@@ -1122,7 +1122,7 @@ export default function PrinterTroubleshooting() {
                 className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#0095d4] font-semibold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-3"
               >
                 <Phone className="w-5 h-5" />
-                Call: (844) 491-5152
+                Call: (888) 254-8896
               </a>
             </div>
           </div>

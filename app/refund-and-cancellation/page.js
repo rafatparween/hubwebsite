@@ -7,7 +7,7 @@ export default function RefundPolicyPage() {
     {
       icon: Globe,
       title: "1. Nature of Our Services (No Physical Products)",
-      content: "Hewlett Hub Solutions provides remote technical support services including printer/computer/scanner troubleshooting, software guidance, network/Wi-Fi support, and step-by-step assistance.",
+      content: "Hewlett Printers Solution LLC provides remote technical support services including printer/computer/scanner troubleshooting, software guidance, network/Wi-Fi support, and step-by-step assistance.",
       points: [
         { type: "check", text: "Remote technical support" },
         { type: "check", text: "Printer/computer/scanner troubleshooting" },
@@ -99,7 +99,7 @@ export default function RefundPolicyPage() {
         { type: "list", text: "Date of service" },
         { type: "list", text: "Proof of unresolved issue (if applicable)" }
       ],
-      contact: "Send to: support@hewlett-hubsolutions.com or call (844) 491-5152",
+      contact: "Send to: support@hewlettprinterssolution.com or call (888) 254-8896",
       disclaimer: "Refunds, once approved, will be processed within 5–10 business days."
     }
   ];
@@ -120,8 +120,8 @@ export default function RefundPolicyPage() {
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Last Updated: January 2025
           </p>
-          <p className="text-lg text-gray-700 mt-4 max-w-3xl mx-auto">
-            This Refund, Return & Cancellation Policy applies to all services purchased from Hewlett Hub Solutions ("Company", "We", "Us", "Our"). By using our website or contacting our toll-free number (844) 491-5152, you agree to the terms below.
+          <p className="text-lg text-gray-700 mt-4 max-w-3xl mx-auto">Hewlett Printers Solution LLC
+            This Refund, Return & Cancellation Policy applies to all services purchased from  ("Company", "We", "Us", "Our"). By using our website or contacting our toll-free number (888) 254-8896, you agree to the terms below.
           </p>
         </div>
       </section>
@@ -205,7 +205,7 @@ export default function RefundPolicyPage() {
                     <Phone className="w-5 h-5" />
                     <div>
                       <p className="font-semibold">Toll-Free Support</p>
-                      <p className="text-lg">(844) 491-5152</p>
+                      <p className="text-lg">(888) 254-8896</p>
                     </div>
                   </div>
                   
@@ -213,7 +213,7 @@ export default function RefundPolicyPage() {
                     <Mail className="w-5 h-5" />
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-sm">support@hewlett-hubsolutions.com</p>
+                      <p className="text-sm">support@hewlettprinterssolution.com</p>
                     </div>
                   </div>
                   
@@ -251,7 +251,7 @@ export default function RefundPolicyPage() {
                     Call Now
                   </a>
                   <a 
-                    href="mailto:support@hewlett-hubsolutions.com" 
+                    href="mailto:support@hewlettprinterssolution.com" 
                     className="w-full border-2 border-[#0095d4] text-[#0095d4] py-3 px-6 rounded-xl font-semibold flex items-center justify-center gap-2 hover:bg-blue-50 transition-all duration-300"
                   >
                     <Mail className="w-4 h-4" />
@@ -305,10 +305,10 @@ export default function RefundPolicyPage() {
               className="bg-white text-[#0095d4] px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-100 transform hover:-translate-y-1 transition-all duration-300 shadow-2xl flex items-center justify-center gap-3"
             >
               <Phone className="w-5 h-5" />
-              Call (844) 491-5152
+              Call (888) 254-8896
             </a>
             <a 
-              href="mailto:support@hewlett-hubsolutions.com" 
+              href="mailto:support@hewlettprinterssolution.com" 
               className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-white/10 transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-3"
             >
               <Mail className="w-5 h-5" />

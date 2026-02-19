@@ -10,7 +10,7 @@ export default function BusinessSupportPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 py-12">
       <Head>
-        <title>Business Support | EzTech-Printer-Solutions</title>
+        <title>Business Support | Hewlett Printers Solution LLC</title>
       </Head>
 
       {/* Header */}
