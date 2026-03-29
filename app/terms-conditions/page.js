@@ -493,7 +493,7 @@ const TermsAndConditions = () => {
                       <div className="space-y-4">
                         <div className="flex items-center">
                           <Phone className="mr-3 text-[#59c7b5]" />
-                          <span>Toll-Free Support:(888) 254-8896</span>
+                          <span>Toll-Free Support:+1 (888) 851-6444</span>
                         </div>
                         <div className="flex items-center">
                           <Email className="mr-3 text-[#59c7b5]" />
@@ -547,7 +547,7 @@ const termsAndConditionsContent = [
     sectionTitle: '1. Definitions',
     content: [
       'Welcome to Hewlett Printers Solution LLC ("Company", "We", "Us", "Our"). These Terms & Conditions govern your access to and use of https://hewlettprinterssolution.com and all services provided through our website, phone support, live chat, and remote assistance channels.',
-      'By using our website or contacting our toll-free support line (888) 254-8896, you agree to these Terms. If you do not agree, please discontinue use immediately.'
+      'By using our website or contacting our toll-free support line +1 (888) 851-6444, you agree to these Terms. If you do not agree, please discontinue use immediately.'
     ],
     subSections: [
       {
@@ -565,7 +565,7 @@ const termsAndConditionsContent = [
   {
     sectionTitle: '2. Acceptance of Terms',
     content: [
-      'By accessing the website, live chat, email, remote session, or our toll-free number (888) 254-8896, you confirm that:'
+      'By accessing the website, live chat, email, remote session, or our toll-free number +1 (888) 851-6444, you confirm that:'
     ],
     subSections: [
       {
@@ -740,7 +740,7 @@ const termsAndConditionsContent = [
       {
         subTitle: 'Contact Details',
         content: [
-          '📞 Toll-Free Support:(888) 254-8896',
+          '📞 Toll-Free Support:+1 (888) 851-6444',
           '📧 Email: support@hewlettprinterssolution.com',
           '🌐 Website: https://hewlettprinterssolution.com',
           '🏢 Hewlett Printers Solution LLC, California, USA'

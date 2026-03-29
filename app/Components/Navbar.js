@@ -120,7 +120,7 @@ export default function Navbar() {
                 <FaPhone className="text-white text-xs" />
               </div>
               <span className="text-[18px] font-bold bg-gradient-to-r from-[#59c7b5] to-[#0095d4] bg-clip-text text-transparent group-hover:scale-105 transition-all duration-300 whitespace-nowrap">
-                Call Us <span className="text-gray-900 font-extrabold drop-shadow-sm">+1 (888) 254-8896</span>
+                Call Us <span className="text-gray-900 font-extrabold drop-shadow-sm">+1 (888) 851-6444</span>
               </span>
             </div>
             <div className="flex items-center w-full border-2 border-gray-200 rounded-full px-4 py-2.5 hover:border-blue-500 transition-all duration-300 shadow-sm hover:shadow-md">

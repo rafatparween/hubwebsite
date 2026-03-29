@@ -572,7 +572,7 @@ const PrivacyPolicy = () => {
                       </div>
                       <div className="flex items-center">
                         <Phone className="mr-3 text-[#59c7b5]" />
-                        <span>[Your Toll-Free Number:- (888) 254-8896]</span>
+                        <span>[Your Toll-Free Number:- +1 (888) 851-6444]</span>
                       </div>
                       <div className="flex items-center">
                         <Business className="mr-3 text-[#59c7b5]" />
@@ -799,7 +799,7 @@ const privacyPolicyContent = [
       'If you have any questions or requests regarding this Privacy Policy, contact:',
       '',
       '📧 support@hewlettprinterssolution.com',
-      '📞 [Your Toll-Free Number:-(888) 254-8896]',
+      '📞 [Your Toll-Free Number:-+1 (888) 851-6444]',
       '🏢 Hewlett Printers Solution LLC – United States',
     ],
   },
