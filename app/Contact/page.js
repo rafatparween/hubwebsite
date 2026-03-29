@@ -309,7 +309,7 @@ const Contact = () => {
         className="w-full flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-r from-[#59c7b5] to-[#0095d4] hover:from-[#4ab8a5] hover:to-[#0085c4] text-white text-sm font-semibold rounded-xl transition-all duration-200 shadow-md hover:shadow-lg"
       >
         <Send className="text-base" />
-        Send Message
+        Submit
         <ArrowRight className="text-base group-hover:translate-x-0.5 transition-transform" />
       </button>
     </form>
