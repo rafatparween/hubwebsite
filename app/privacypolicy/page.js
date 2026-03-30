@@ -405,6 +405,408 @@
 
 
 
+// "use client";
+// import React from 'react';
+// import { 
+//   Security, 
+//   Policy, 
+//   Description, 
+//   Cookie,
+//   DataUsage,
+//   Share,
+//   Delete,
+//   ChildCare,
+//   Link,
+//   Update,
+//   ContactSupport,
+//   Business,
+//   Gavel,
+//   Analytics,
+//   Notifications,
+//   Storage,
+//   TransferWithinAStation,
+//   Email,
+//   Phone,
+// } from '@mui/icons-material';
+
+// const PrivacyPolicy = () => {
+//   return (
+//     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 py-16">
+//       {/* Header Section */}
+//       <div className="max-w-[1360px] mx-auto px-6 lg:px-8 mb-16">
+//         <div className="text-center">
+//           <div className="inline-flex items-center bg-gradient-to-r from-[#59c7b5] to-[#0095d4] text-white px-6 py-3 rounded-full mb-6">
+//             <Security className="mr-2" />
+//             <span className="font-semibold">Privacy & Data Protection</span>
+//           </div>
+//           <h1 className="text-5xl md:text-7xl font-black text-gray-900 mb-6">
+//             Privacy <span className="bg-gradient-to-r from-[#59c7b5] to-[#0095d4] bg-clip-text text-transparent">Policy</span>
+//           </h1>
+//           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+//             Learn how we collect, use, and protect your personal information
+//           </p>
+//         </div>
+//       </div>
+
+//       {/* Main Content */}
+//       <div className="max-w-[1360px] mx-auto px-6 lg:px-8">
+//         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+//           {/* Sidebar Navigation */}
+//           <div className="lg:col-span-1">
+//             <div className="bg-white rounded-3xl shadow-2xl p-6 sticky top-8 border border-gray-100">
+//               <h3 className="text-lg font-bold text-gray-900 mb-6 flex items-center">
+//                 <Policy className="text-[#59c7b5] mr-3" />
+//                 Policy Sections
+//               </h3>
+//               <nav className="space-y-2">
+//                 {privacyPolicyContent.map((section, index) => (
+//                   <a 
+//                     key={index}
+//                     href={`#section-${index}`}
+//                     className="block text-gray-600 hover:text-[#0095d4] font-medium py-3 px-4 rounded-xl hover:bg-[#59c7b5]/10 transition-all duration-300 group"
+//                   >
+//                     <div className="flex items-center">
+//                       <div className="w-2 h-2 bg-[#59c7b5] rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+//                       <span className="text-sm leading-tight">{section.sectionTitle}</span>
+//                     </div>
+//                   </a>
+//                 ))}
+//               </nav>
+              
+//               {/* Quick Info */}
+//               <div className="mt-8 p-4 bg-gradient-to-r from-[#59c7b5]/10 to-[#0095d4]/10 rounded-2xl border border-[#59c7b5]/20">
+//                 <div className="flex items-center text-sm text-gray-700 mb-2">
+//                   <Update className="text-[#59c7b5] mr-2 text-base" />
+//                   <span className="font-semibold">Last Updated</span>
+//                 </div>
+//                 <p className="text-xs text-gray-600">November 2025</p>
+//               </div>
+//             </div>
+//           </div>
+
+//           {/* Policy Content */}
+//           <div className="lg:col-span-3">
+//             <div className="space-y-8">
+//               {privacyPolicyContent.map((section, index) => (
+//                 <section 
+//                   key={index}
+//                   id={`section-${index}`}
+//                   className="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-gray-100 transform hover:shadow-3xl transition-all duration-500 group"
+//                 >
+//                   {/* Section Header */}
+//                   <div className="flex items-start mb-8">
+//                     <div className="bg-gradient-to-r from-[#59c7b5] to-[#0095d4] p-4 rounded-2xl mr-6 flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+//                       {getSectionIcon(section.sectionTitle)}
+//                     </div>
+//                     <div className="flex-1">
+//                       <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3 leading-tight">
+//                         {section.sectionTitle}
+//                       </h2>
+//                       <div className="w-20 h-1 bg-gradient-to-r from-[#59c7b5] to-[#0095d4] rounded-full"></div>
+//                     </div>
+//                   </div>
+
+//                   {/* Main Content */}
+//                   <div className="space-y-6">
+//                     {section.content && section.content.map((paragraph, idx) => (
+//                       <div key={idx} className="flex items-start group/p">
+//                         <div className="bg-[#59c7b5]/10 w-6 h-6 rounded-full flex items-center justify-center mr-4 mt-1 flex-shrink-0 group-hover/p:scale-110 transition-transform duration-300">
+//                           <div className="w-2 h-2 bg-[#59c7b5] rounded-full"></div>
+//                         </div>
+//                         <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+//                           {paragraph}
+//                         </p>
+//                       </div>
+//                     ))}
+
+//                     {/* Sub Sections */}
+//                     {section.subSections && section.subSections.map((subSection, subIdx) => (
+//                       <div key={subIdx} className="ml-6 mt-6 p-6 bg-gray-50 rounded-2xl border-l-4 border-[#0095d4] group/s">
+//                         <div className="flex items-start mb-4">
+//                           <div className="bg-[#0095d4] w-3 h-3 rounded-full mt-2 mr-4 flex-shrink-0 group-hover/s:scale-150 transition-transform duration-300"></div>
+//                           <h3 className="text-xl font-bold text-gray-800 flex-1">
+//                             {subSection.subTitle}
+//                           </h3>
+//                         </div>
+                        
+//                         {Array.isArray(subSection.content) ? (
+//                           <div className="space-y-3 ml-7">
+//                             {subSection.content.map((subParagraph, subPIdx) => (
+//                               <div key={subPIdx} className="flex items-start">
+//                                 <div className="bg-[#0095d4]/20 w-2 h-2 rounded-full mt-3 mr-4 flex-shrink-0"></div>
+//                                 <p className="text-gray-700 leading-7 flex-1">
+//                                   {subParagraph}
+//                                 </p>
+//                               </div>
+//                             ))}
+//                           </div>
+//                         ) : (
+//                           <p className="text-gray-700 leading-7 ml-7">
+//                             {subSection.content}
+//                           </p>
+//                         )}
+//                       </div>
+//                     ))}
+//                   </div>
+//                 </section>
+//               ))}
+//             </div>
+
+//             {/* Contact Section */}
+//             <div className="mt-12 rounded-3xl p-12 text-white shadow-2xl" style={{background: 'linear-gradient(135deg, #59c7b5 0%, #0095d4 100%)'}}>
+//               <div className="flex flex-col lg:flex-row items-center gap-8">
+//                 <div className="flex-1">
+//                   <ContactSupport className="text-6xl mb-6 opacity-90" />
+//                   <h3 className="text-3xl font-bold mb-4">Questions About Our Privacy Policy?</h3>
+//                   <p className="text-xl opacity-90 mb-6">
+//                     We're here to help you understand how we protect your data and privacy.
+//                   </p>
+//                 </div>
+//                 <div className="flex-1">
+//                   <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+//                     <h4 className="text-xl font-bold mb-4">Contact Our Privacy Team</h4>
+//                     <div className="space-y-3">
+//                       <div className="flex items-center">
+//                         <Email className="mr-3 text-[#59c7b5]" />
+//                         <span>support@hewlettprinterssolution.com</span>
+//                       </div>
+//                       <div className="flex items-center">
+//                         <Phone className="mr-3 text-[#59c7b5]" />
+//                         <span>[Your Toll-Free Number:- +1 (888) 851-6444]</span>
+//                       </div>
+//                       <div className="flex items-center">
+//                         <Business className="mr-3 text-[#59c7b5]" />
+//                         <span>Hewlett Printers Solution LLC – United States</span>
+//                       </div>
+//                     </div>
+//                   </div>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// // Helper function to get appropriate icons for each section
+// const getSectionIcon = (sectionTitle) => {
+//   const icons = {
+//     'Privacy Policy': <Security className="text-white text-2xl" />,
+//     '1. Information We Collect': <DataUsage className="text-white text-2xl" />,
+//     '2. How We Use Your Information': <Analytics className="text-white text-2xl" />,
+//     '3. Remote Support Consent': <Security className="text-white text-2xl" />,
+//     '4. Cookies & Tracking Technologies': <Cookie className="text-white text-2xl" />,
+//     '5. Data Retention': <Storage className="text-white text-2xl" />,
+//     '6. Sharing Your Information': <Share className="text-white text-2xl" />,
+//     '7. Your Rights': <Gavel className="text-white text-2xl" />,
+//     '8. Children\'s Privacy': <ChildCare className="text-white text-2xl" />,
+//     '9. External Links': <Link className="text-white text-2xl" />,
+//     '10. Security of Your Information': <Security className="text-white text-2xl" />,
+//     '11. No Brand Affiliation Disclosure': <Business className="text-white text-2xl" />,
+//     '12. Business Transfers': <TransferWithinAStation className="text-white text-2xl" />,
+//     '13. Changes to This Privacy Policy': <Update className="text-white text-2xl" />,
+//     '14. Contact Us': <ContactSupport className="text-white text-2xl" />
+//   };
+  
+//   return icons[sectionTitle] || <Policy className="text-white text-2xl" />;
+// };
+
+// export default PrivacyPolicy;
+
+// const privacyPolicyContent = [
+//   {
+//     sectionTitle: 'Privacy Policy',
+//     content: [
+//       'Hewlett Printers Solution LLC ("Company", "We", "Us", "Our") respects your privacy and is committed to protecting your personal information.',
+//       'This Privacy Policy explains how we collect, use, disclose, store, and safeguard your information when you visit www.eztechprintersolutions.com or use any of our technical support services.',
+//       'By accessing our website or requesting our services, you agree to the terms outlined in this Privacy Policy.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '1. Information We Collect',
+//     content: [
+//       'We collect and process the following types of information:',
+//     ],
+//     subSections: [
+//       {
+//         subTitle: 'a. Information You Provide Directly',
+//         content: [
+//           'Full name',
+//           'Email address',
+//           'Phone number',
+//           'Billing details (only during paid service purchases)',
+//           'Physical or mailing address (if voluntarily provided)',
+//           'Device or printer details you share for support'
+//         ],
+//       },
+//       {
+//         subTitle: 'b. Technical & Device Information',
+//         content: [
+//           'Automatically collected when you visit our website:',
+//           'IP address',
+//           'Browser type and version',
+//           'Operating system',
+//           'Time zone',
+//           'Device identifiers',
+//           'Pages visited and time spent',
+//           'Session data, diagnostic logs'
+//         ],
+//       },
+//       {
+//         subTitle: 'c. Remote Support Information',
+//         content: [
+//           'If you request remote assistance, you may temporarily grant access to your device.',
+//           'During this session:',
+//           'You maintain full control',
+//           'You may end the session anytime',
+//           'We do not record, store, or save screen data',
+//           'We do not access personal files unless you ask us to for troubleshooting'
+//         ],
+//       },
+//     ],
+//   },
+//   {
+//     sectionTitle: '2. How We Use Your Information',
+//     content: [
+//       'We use your information to:',
+//       'Provide technical support for printers, computers, and connected devices',
+//       'Diagnose and fix hardware/software issues',
+//       'Respond to your inquiries',
+//       'Improve website performance and customer experience',
+//       'Process payments and service requests',
+//       'Send confirmations, updates, or essential service notifications',
+//       'Maintain safety, fraud protection, and system security',
+//       'Comply with U.S. state and federal legal requirements',
+//       '',
+//       'We do not sell, rent, or trade your personal information.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '3. Remote Support Consent',
+//     content: [
+//       'If you voluntarily request remote support:',
+//       'You authorize temporary access to your device',
+//       'No files are downloaded or stored',
+//       'No session is recorded',
+//       'We only perform actions required to troubleshoot',
+//       'You may disconnect anytime',
+//       '',
+//       'We use secure, encrypted remote-support tools.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '4. Cookies & Tracking Technologies',
+//     content: [
+//       'We use cookies to:',
+//       'Keep the website functioning',
+//       'Understand usage patterns',
+//       'Improve performance and loading speed',
+//       'Provide personalized support experience',
+//       '',
+//       'You may disable cookies at any time through your browser settings.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '5. Data Retention',
+//     content: [
+//       'We retain personal data only for as long as necessary:',
+//       'Support-related information: up to 12 months',
+//       'Billing records: 3–5 years (required by U.S. tax law)',
+//       'Analytics/cookie data: short-term automatic periods',
+//       '',
+//       'Remote support session data is never stored.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '6. Sharing Your Information',
+//     content: [
+//       'We may share limited information with:',
+//       'Secure payment processors (Stripe, PayPal, etc.)',
+//       'IT security tools (fraud detection, spam blocking)',
+//       'Website analytics services',
+//       'Legal authorities if required by law',
+//       '',
+//       'We do not share information for advertising or marketing with third parties.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '7. Your Rights',
+//     content: [
+//       'Depending on your location, you have the right to:',
+//       'Request access to your data',
+//       'Request correction or deletion',
+//       'Opt out of marketing communication',
+//       'Request a copy of information we hold about you',
+//       '',
+//       'You may contact us anytime at',
+//       '📧 support@hewlettprinterssolution.com',
+//     ],
+//   },
+//   {
+//     sectionTitle: '8. Children\'s Privacy',
+//     content: [
+//       'We do not knowingly collect personal information from anyone under the age of 13.',
+//       'If you believe a child has provided information, contact us and we will remove it immediately.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '9. External Links',
+//     content: [
+//       'Our website may contain links to other websites.',
+//       'We are not responsible for the privacy policies or practices of third-party websites.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '10. Security of Your Information',
+//     content: [
+//       'We use the following protections:',
+//       'Encrypted communication',
+//       'Secure payment gateways',
+//       'Firewall and anti-fraud systems',
+//       'Limited data access only for authorized staff',
+//       '',
+//       'While we take all reasonable measures, no system is fully secure.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '11. No Brand Affiliation Disclosure',
+//     content: [
+//       'Hewlett Printers Solution LLC is an independent service provider for printer and computer support.',
+//       'We are not affiliated with, endorsed by, or associated with any manufacturer or software company.',
+//       'All trademarks belong to their respective owners.',
+//       '',
+//       '(This is required for compliance.)',
+//     ],
+//   },
+//   {
+//     sectionTitle: '12. Business Transfers',
+//     content: [
+//       'If Hewlett Printers Solution LLC is involved in a merger, sale, restructuring, or acquisition, your data may be transferred as part of the business assets—only if protected under this Privacy Policy.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '13. Changes to This Privacy Policy',
+//     content: [
+//       'We may update this Privacy Policy occasionally.',
+//       'The latest version will always be posted with a revised "Last Updated" date.',
+//     ],
+//   },
+//   {
+//     sectionTitle: '14. Contact Us',
+//     content: [
+//       'If you have any questions or requests regarding this Privacy Policy, contact:',
+//       '',
+//       '📧 support@hewlettprinterssolution.com',
+//       '📞 [Your Toll-Free Number:-+1 (888) 851-6444]',
+//       '🏢 Hewlett Printers Solution LLC – United States',
+//     ],
+//   },
+// ];
+
+
+
 "use client";
 import React from 'react';
 import { 
@@ -427,9 +829,35 @@ import {
   TransferWithinAStation,
   Email,
   Phone,
+  Sms,
+  Message,
 } from '@mui/icons-material';
 
 const PrivacyPolicy = () => {
+  // Helper function to get appropriate icons for each section - moved inside component
+  const getSectionIcon = (sectionTitle) => {
+    const icons = {
+      'Privacy Policy': <Security className="text-white text-2xl" />,
+      '1. Information We Collect': <DataUsage className="text-white text-2xl" />,
+      '2. How We Use Your Information': <Analytics className="text-white text-2xl" />,
+      '3. Remote Support Consent': <Security className="text-white text-2xl" />,
+      '4. Cookies & Tracking Technologies': <Cookie className="text-white text-2xl" />,
+      '5. Data Retention': <Storage className="text-white text-2xl" />,
+      '6. Sharing Your Information': <Share className="text-white text-2xl" />,
+      '7. Your Rights': <Gavel className="text-white text-2xl" />,
+      '8. Children\'s Privacy': <ChildCare className="text-white text-2xl" />,
+      '9. External Links': <Link className="text-white text-2xl" />,
+      '10. Security of Your Information': <Security className="text-white text-2xl" />,
+      '11. No Brand Affiliation Disclosure': <Business className="text-white text-2xl" />,
+      '12. Business Transfers': <TransferWithinAStation className="text-white text-2xl" />,
+      '13. Changes to This Privacy Policy': <Update className="text-white text-2xl" />,
+      '14. Contact Us': <ContactSupport className="text-white text-2xl" />,
+      'Messaging Terms & Data Sharing': <Message className="text-white text-2xl" />
+    };
+    
+    return icons[sectionTitle] || <Policy className="text-white text-2xl" />;
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-cyan-50 py-16">
       {/* Header Section */}
@@ -471,6 +899,16 @@ const PrivacyPolicy = () => {
                     </div>
                   </a>
                 ))}
+                {/* Messaging Terms Nav Link */}
+                <a 
+                  href="#messaging-terms"
+                  className="block text-gray-600 hover:text-[#0095d4] font-medium py-3 px-4 rounded-xl hover:bg-[#59c7b5]/10 transition-all duration-300 group"
+                >
+                  <div className="flex items-center">
+                    <div className="w-2 h-2 bg-[#59c7b5] rounded-full mr-3 group-hover:scale-150 transition-transform duration-300"></div>
+                    <span className="text-sm leading-tight">Messaging Terms & Data Sharing</span>
+                  </div>
+                </a>
               </nav>
               
               {/* Quick Info */}
@@ -550,33 +988,131 @@ const PrivacyPolicy = () => {
                   </div>
                 </section>
               ))}
-            </div>
 
-            {/* Contact Section */}
-            <div className="mt-12 rounded-3xl p-12 text-white shadow-2xl" style={{background: 'linear-gradient(135deg, #59c7b5 0%, #0095d4 100%)'}}>
-              <div className="flex flex-col lg:flex-row items-center gap-8">
-                <div className="flex-1">
-                  <ContactSupport className="text-6xl mb-6 opacity-90" />
-                  <h3 className="text-3xl font-bold mb-4">Questions About Our Privacy Policy?</h3>
-                  <p className="text-xl opacity-90 mb-6">
-                    We're here to help you understand how we protect your data and privacy.
-                  </p>
+              {/* 📌 Messaging Terms & Data Sharing Section - Fixed with proper bullet points */}
+              <section 
+                id="messaging-terms"
+                className="bg-white rounded-3xl shadow-2xl p-8 lg:p-10 border border-gray-100 transform hover:shadow-3xl transition-all duration-500 group"
+              >
+                {/* Section Header */}
+                <div className="flex items-start mb-8">
+                  <div className="bg-gradient-to-r from-[#59c7b5] to-[#0095d4] p-4 rounded-2xl mr-6 flex-shrink-0 group-hover:scale-110 transition-transform duration-300">
+                    <Message className="text-white text-2xl" />
+                  </div>
+                  <div className="flex-1">
+                    <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-3 leading-tight">
+                      Messaging Terms & Data Sharing
+                    </h2>
+                    <div className="w-20 h-1 bg-gradient-to-r from-[#59c7b5] to-[#0095d4] rounded-full"></div>
+                  </div>
                 </div>
-                <div className="flex-1">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
-                    <h4 className="text-xl font-bold mb-4">Contact Our Privacy Team</h4>
-                    <div className="space-y-3">
-                      <div className="flex items-center">
-                        <Email className="mr-3 text-[#59c7b5]" />
-                        <span>support@hewlettprinterssolution.com</span>
+
+                {/* Main Content with proper bullet points */}
+                <div className="space-y-8">
+                  
+                  {/* Data Sharing Section */}
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                      <Share className="text-[#59c7b5] mr-2 text-xl" />
+                      Data Sharing:
+                    </h3>
+                    <div className="space-y-3 ml-6">
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Customer data is not shared with third parties for promotional or marketing purposes.
+                        </p>
                       </div>
-                      <div className="flex items-center">
-                        <Phone className="mr-3 text-[#59c7b5]" />
-                        <span>[Your Toll-Free Number:- +1 (888) 851-6444]</span>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Mobile opt-in and consent are never shared with anyone for any purpose.
+                        </p>
                       </div>
-                      <div className="flex items-center">
-                        <Business className="mr-3 text-[#59c7b5]" />
-                        <span>Hewlett Printers Solution LLC – United States</span>
+                    </div>
+                  </div>
+
+                  {/* Messaging Terms Section */}
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-800 mb-4 flex items-center">
+                      <Message className="text-[#59c7b5] mr-2 text-xl" />
+                      Messaging Terms:
+                    </h3>
+                    <div className="space-y-3 ml-6">
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Hewlett Printers Solution LLC uses SMS for conversational support, service updates, and appointment notifications.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          You can opt out anytime by replying STOP.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          After opting out, you will no longer receive messages unless you re-subscribe.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          For help, reply HELP or contact us at your support email.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Message and data rates may apply.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Message frequency may vary depending on service activity.
+                        </p>
+                      </div>
+                      <div className="flex items-start group/p">
+                        <div className="bg-[#59c7b5] w-2 h-2 rounded-full mr-3 mt-2 flex-shrink-0"></div>
+                        <p className="text-gray-700 text-lg leading-8 group-hover/p:text-gray-900 transition-colors duration-300 flex-1">
+                          Carriers are not responsible for delayed or undelivered messages.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+
+              {/* Contact Section */}
+              <div className="mt-12 rounded-3xl p-12 text-white shadow-2xl" style={{background: 'linear-gradient(135deg, #59c7b5 0%, #0095d4 100%)'}}>
+                <div className="flex flex-col lg:flex-row items-center gap-8">
+                  <div className="flex-1">
+                    <ContactSupport className="text-6xl mb-6 opacity-90" />
+                    <h3 className="text-3xl font-bold mb-4">Questions About Our Privacy Policy?</h3>
+                    <p className="text-xl opacity-90 mb-6">
+                      We're here to help you understand how we protect your data and privacy.
+                    </p>
+                  </div>
+                  <div className="flex-1">
+                    <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/20">
+                      <h4 className="text-xl font-bold mb-4">Contact Our Privacy Team</h4>
+                      <div className="space-y-3">
+                        <div className="flex items-center">
+                          <Email className="mr-3 text-[#59c7b5]" />
+                          <span>support@hewlettprinterssolution.com</span>
+                        </div>
+                        <div className="flex items-center">
+                          <Phone className="mr-3 text-[#59c7b5]" />
+                          <span>[Your Toll-Free Number:- +1 (888) 851-6444]</span>
+                        </div>
+                        <div className="flex items-center">
+                          <Business className="mr-3 text-[#59c7b5]" />
+                          <span>Hewlett Printers Solution LLC – United States</span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -588,29 +1124,6 @@ const PrivacyPolicy = () => {
       </div>
     </div>
   );
-};
-
-// Helper function to get appropriate icons for each section
-const getSectionIcon = (sectionTitle) => {
-  const icons = {
-    'Privacy Policy': <Security className="text-white text-2xl" />,
-    '1. Information We Collect': <DataUsage className="text-white text-2xl" />,
-    '2. How We Use Your Information': <Analytics className="text-white text-2xl" />,
-    '3. Remote Support Consent': <Security className="text-white text-2xl" />,
-    '4. Cookies & Tracking Technologies': <Cookie className="text-white text-2xl" />,
-    '5. Data Retention': <Storage className="text-white text-2xl" />,
-    '6. Sharing Your Information': <Share className="text-white text-2xl" />,
-    '7. Your Rights': <Gavel className="text-white text-2xl" />,
-    '8. Children\'s Privacy': <ChildCare className="text-white text-2xl" />,
-    '9. External Links': <Link className="text-white text-2xl" />,
-    '10. Security of Your Information': <Security className="text-white text-2xl" />,
-    '11. No Brand Affiliation Disclosure': <Business className="text-white text-2xl" />,
-    '12. Business Transfers': <TransferWithinAStation className="text-white text-2xl" />,
-    '13. Changes to This Privacy Policy': <Update className="text-white text-2xl" />,
-    '14. Contact Us': <ContactSupport className="text-white text-2xl" />
-  };
-  
-  return icons[sectionTitle] || <Policy className="text-white text-2xl" />;
 };
 
 export default PrivacyPolicy;
@@ -804,3 +1317,5 @@ const privacyPolicyContent = [
     ],
   },
 ];
+
+
